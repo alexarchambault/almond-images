@@ -11,5 +11,5 @@ RUN coursier bootstrap \
       sh.almond:scala-kernel_$SCALA_VERSION:$ALMOND_VERSION \
       --default=true --sources \
       -o almond && \
-    ./almond --install --metadoc --log info --metabrowse && \
+    ./almond --install --log info --metabrowse && \
     rm almond
