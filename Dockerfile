@@ -1,4 +1,4 @@
-FROM popatry/almond-images:coursier
+FROM alexarchambault/almond-test:coursier
 
 USER $NB_UID
 
