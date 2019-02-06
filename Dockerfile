@@ -15,7 +15,5 @@ RUN curl -Lo /usr/local/bin/coursier https://git.io/coursier-cli && \
 
 USER $NB_UID
 
-ENV COURSIER_CACHE /var/coursier/cache
-
 # ensure the JAR of the CLI is in the coursier cache, in the image
 RUN /usr/local/bin/coursier --help
